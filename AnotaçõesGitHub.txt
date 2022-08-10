@@ -1,0 +1,35 @@
+Git é um programa de versionamento de código visando facilitar. 
+
+😘Conhecimento de comandos iniciais no Linux 
+
+ls > Lista os diretórios contidos na pasta atual 
+
+cd > Acessa um diretório 
+
+cd.. > Volta uma pasta anterior 
+
+clear > Limpa o terminal 
+
+mkdir > Cria uma pasta 
+
+rm –rf > Deleta o diretório 
+
+😗Chaves SSH 
+
+É uma forma de estabelecer uma conexão segura e criptografada entre duas máquinas, possuindo chave pública e privada. 
+
+Criar chave > ssh-keygen -t ed25519 –C seuemaildogit    A chave pública é a que expõe 
+
+🙄Primeiros comandos Git                                          "Stage" os arquivo que estão se preparando 
+
+git init – Inicializa o Git no diretório 
+
+git add – Adiciona o arquivo no modo stage para comitar 
+
+git commit -m "comentário" - Salva o arquivo com commit 
+
+git status – Mostra o status do repositório, se houve alguma alteração 
+
+Inserir o repositório local para o GitHub > git remote add origin git@github.com:poxasah/livro-receitas.git 
+
+git push origin master > Empurra o código para o repositório 
